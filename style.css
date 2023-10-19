@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+                     /*section-1*/
+.banner img{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+
+}                        
+                      /*section-2*/
+.left-col{
+    height: 800px;
+    background-color: black;
+}
+.rotate-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+      
+}
+.rotate-container img{
+    height: 50%;
+    
+}
+.text-inside{
+    position: absolute;
+    z-index: 1;
+}
+.content {
+    margin: 0 auto;
+    padding: 20px; 
+}
+
